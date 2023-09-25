@@ -32,7 +32,9 @@ const options = {
         }
     },
 };
-
+const inlineStyle = {
+    background: `linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(${bgh.src}) center center no-repeat`,
+  };
 export default function Services() {
     return (
         <div>
@@ -46,10 +48,7 @@ export default function Services() {
                 {/* <!-- Spinner End --> */}
 
                 {/* <!-- Page Header Start --> */}
-                <div className="container-fluid page-header py-5 mb-5" 
-                        style={{backgroundImage: `url(${bgh.src})`, backgroundPosition: 'center',
-                        backgroundRepeat: 'no-repeat', backgroundSize:'cover'}}
-                >
+                <div className="container-fluid page-header py-5 mb-5" style={inlineStyle}>
                     <div className="container py-5">
                         <h1 className="display-3 text-white mb-3 animate__animated animate__slideInDown ">Service</h1>
                         <nav aria-label="breadcrumb animate__animated animate__slideInDown">

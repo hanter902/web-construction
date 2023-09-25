@@ -1,13 +1,14 @@
 import MasterLayout from "./components/layout/MasterLayout";
 import bgh from '../../public/img/carousel-1.jpg'
-
+const inlineStyle = {
+    background: `linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(${bgh.src}) center center no-repeat`,
+  };
 export default function Galleries() {
     return (
         <MasterLayout>
            {/* <!-- Page Header Start --> */}
     <div className="container-fluid page-header py-5 mb-5"
-     style={{backgroundImage: `url(${bgh.src})`, backgroundPosition: 'center',
-     backgroundRepeat: 'no-repeat', backgroundSize:'cover'}}
+     style={inlineStyle}
     >
         <div className="container py-5">
             <h1 className="display-3 text-white mb-3 animated slideInDown">Project</h1>
