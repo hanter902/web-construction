@@ -1,12 +1,11 @@
 import MasterLayout from "./components/layout/MasterLayout";
 import "animate.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import React from 'react';
+import React, { useEffect } from 'react';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from "next/dynamic";
 import bgh from '../../public/img/carousel-1.jpg'
-import bgf from '../../public/img/footer.jpg'
 const OwlCarousel2 = dynamic(() => import('@ntegral/react-owl-carousel'), {
     ssr: false,
 });
@@ -18,24 +17,31 @@ const options = {
     autoplay: false,
     loop: true,
     center: true,
-    navText : [
+    navText: [
         '<i class="bi bi-arrow-left"></i>',
         '<i class="bi bi-arrow-right"></i>'
     ],
     smartSpeed: 1000,
     responsive: {
-        0:{
-            items:1
+        0: {
+            items: 1
         },
-        768:{
-            items:2
+        768: {
+            items: 2
         }
     },
 };
 const inlineStyle = {
     background: `linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(${bgh.src}) center center no-repeat`,
-  };
+};
 export default function Services() {
+    const isServer = typeof window === 'undefined'
+    const WOW = !isServer ? require('wowjs') : null
+    useEffect(() => {
+        new WOW.WOW({
+            live: true
+        }).init();
+    }, [])
     return (
         <div>
             <MasterLayout>
@@ -205,7 +211,7 @@ export default function Services() {
                         </div>
                         <OwlCarousel2 className="testimonial-carousel owl-loaded owl-drag"  {...options} >
                             <div className="testimonial-item text-center">
-                                <img className="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style={{ width: '90px', height: '90px;' }} />
+                                <img className="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-1.jpg" style={{ width: '90px', height: '90px' }} />
                                 <div className="testimonial-text text-center p-4">
                                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                                     <h5 className="mb-1">Client Name</h5>
@@ -213,7 +219,7 @@ export default function Services() {
                                 </div>
                             </div>
                             <div className="testimonial-item text-center">
-                                <img className="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style={{ width: '90px', height: '90px;' }} />
+                                <img className="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-2.jpg" style={{ width: '90px', height: '90px' }} />
 
                                 <div className="testimonial-text text-center p-4">
                                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
@@ -222,7 +228,7 @@ export default function Services() {
                                 </div>
                             </div>
                             <div className="testimonial-item text-center">
-                                <img className="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style={{ width: '90px', height: '90px;' }} />
+                                <img className="img-fluid bg-light p-2 mx-auto mb-3" src="img/testimonial-3.jpg" style={{ width: '90px', height: '90px' }} />
                                 <div className="testimonial-text text-center p-4">
                                     <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
                                     <h5 className="mb-1">Client Name</h5>
