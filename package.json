@@ -9,15 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ntegral/react-owl-carousel": "^1.0.1",
     "@types/node": "20.6.3",
     "@types/react": "18.2.22",
     "@types/react-dom": "18.2.7",
+    "animate.css": "^4.1.1",
     "clsx": "^2.0.0",
     "eslint": "8.49.0",
     "eslint-config-next": "13.5.1",
     "next": "13.5.1",
     "react": "18.2.0",
+    "react-countup": "^6.4.2",
     "react-dom": "18.2.0",
-    "typescript": "5.2.2"
+    "react-responsive-carousel": "^3.2.23",
+    "typescript": "5.2.2",
+    "wowjs": "^1.1.3"
   }
 }
