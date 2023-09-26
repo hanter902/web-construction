@@ -9,7 +9,7 @@ export default function Galleries() {
     const WOW = !isServer ? require('wowjs') : null
     useEffect(() => {
         new WOW.WOW({
-            live: true
+            live: true 
         }).init();
     }, [])
 
