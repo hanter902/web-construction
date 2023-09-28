@@ -621,3 +621,19 @@
 .footer .copyright a:hover {
     color: var(--primary);
 }
+
+.text-white{
+    color: #ffffff !important
+}
+
+.background-services{
+    background-color: #0088cc;
+}
+
+.mb_1_5{
+    margin-bottom: 35px;
+}
+
+.porto-separator.tall {
+    margin: 22px 0 44px;
+}

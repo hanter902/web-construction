@@ -16,3 +16,8 @@ button.owl-prev{
     padding: unset!important;
     font: unset!important;
 }
+
+img.imgservice{
+    max-width: 100%;
+    height: auto;
+}
