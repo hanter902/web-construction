@@ -100,33 +100,20 @@ export default function OurTeam() {
                   <div className="vc_column_container col-md-12">
                     <div className="wpb_wrapper vc_column-inner">
                       <div className="vc_row wpb_row vc_inner row">
-                        <div
-                          className="vc_column_container col-md-4 animate__animated animate__fadeInLeft"
-                          style={{ animationDelay: "800ms" }}
-                          data-wow-delay="0.8s"
-                        >
+                        <div className="vc_column_container col-md-4 animate__animated animate__fadeInLeft" style={{ animationDelay: "800ms" }} data-wow-delay="0.8s" >
                           <div className="wpb_wrapper vc_column-inner">
                             <div className="porto-sicon-wrapper style_1">
                               <div className="porto-sicon-box left-icon">
                                 <div className="porto-sicon-body">
                                   <div className="porto-sicon-header">
-                                    <h3
-                                      className="porto-sicon-title"
-                                      style={{
-                                        fontWeight: "700",
-                                        fontSize: "16.8px",
-                                      }}
-                                    >
+                                    <h3 className="porto-sicon-title" style={{ fontWeight: "700", fontSize: "16.8px", }} >
                                       QUALITY
                                     </h3>
                                   </div>
                                   <div className="porto-sicon-description ft-14">
-                                    Whether it is in regards to an installation
-                                    or our interactions with customers and
-                                    partners, we want our name to always be
-                                    synonymous with quality. As we grow, no
-                                    decisions will be made that would sacrifice
-                                    the quality that has become expected of our
+                                    Whether it is in regards to an installation or our interactions with customers and
+                                    partners, we want our name to always be synonymous with quality. As we grow, no
+                                    decisions will be made that would sacrifice the quality that has become expected of our
                                     company.
                                   </div>{" "}
                                 </div>
@@ -134,68 +121,41 @@ export default function OurTeam() {
                             </div>
                           </div>
                         </div>
-                        <div
-                          className="vc_column_container col-md-4 animate__animated animate__fadeIn"
-                          style={{ animationDelay: "600ms" }}
-                          data-wow-delay="0.6s"
-                        >
+                        <div className="vc_column_container col-md-4 animate__animated animate__fadeIn" style={{ animationDelay: "600ms" }} data-wow-delay="0.6s">
                           <div className="wpb_wrapper vc_column-inner">
                             <div className="porto-sicon-wrapper style_1">
                               <div className="porto-sicon-box left-icon">
                                 <div className="porto-sicon-body">
                                   <div className="porto-sicon-header">
-                                    <h3
-                                      className="porto-sicon-title"
-                                      style={{
-                                        fontWeight: "700",
-                                        fontSize: "16.8px",
-                                      }}
-                                    >
+                                    <h3 className="porto-sicon-title" style={{ fontWeight: "700", fontSize: "16.8px", }} >
                                       INTEGRITY
                                     </h3>
                                   </div>{" "}
                                   <div className="porto-sicon-description ft-14">
-                                    We are committed to attract and develop high
-                                    character people. We often find ourselves
-                                    saying that employees “treat it as if it
-                                    were their own business”. This attitude has
-                                    flourished with all stuffs of our company
-                                    and it has been key to our growth process.
-                                    That attitude is essential as we continue to
-                                    grow.
+                                    We are committed to attract and develop high character people. We often find ourselves
+                                    saying that employees “treat it as if it were their own business”. This attitude has
+                                    flourished with all stuffs of our company and it has been key to our growth process.
+                                    That attitude is essential as we continue to grow.
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div
-                          className="vc_column_container col-md-4 animate__animated animate__fadeInRight"
-                          style={{ animationDelay: "800ms" }}
-                          data-wow-delay="0.8s"
-                        >
+                        <div className="vc_column_container col-md-4 animate__animated animate__fadeInRight" style={{ animationDelay: "800ms" }} data-wow-delay="0.8s" >
                           <div className="wpb_wrapper vc_column-inner">
                             <div className="porto-sicon-wrapper style_1">
                               <div className="porto-sicon-box left-icon">
                                 <div className="porto-sicon-body">
                                   <div className="porto-sicon-header">
-                                    <h3
-                                      className="porto-sicon-title"
-                                      style={{
-                                        fontWeight: "700",
-                                        fontSize: "16.8px",
-                                      }}
-                                    >
+                                    <h3 className="porto-sicon-title" style={{ fontWeight: "700", fontSize: "16.8px", }} >
                                       EXCELLENCE
                                     </h3>
                                   </div>{" "}
                                   <div className="porto-sicon-description ft-14">
-                                    We have built this company on the basis that
-                                    we will exceed standard industry
-                                    expectations. We are committed to constantly
-                                    improve in every aspect of our business and
-                                    to create value for our customer beyond
-                                    simply&nbsp; installing tiles.
+                                    We have built this company on the basis that we will exceed standard industry
+                                    expectations. We are committed to constantly improve in every aspect of our business and
+                                    to create value for our customer beyond simply&nbsp; installing tiles.
                                   </div>
                                 </div>
                               </div>
@@ -204,73 +164,34 @@ export default function OurTeam() {
                         </div>
                       </div>
                       <div className="vc_row wpb_row vc_inner row">
-                        <div
-                          className="vc_column_container col-md-4 animate__animated animate__fadeInLeft"
-                          style={{ animationDelay: "800ms" }}
-                          data-wow-delay="0.8s"
-                        >
+                        <div className="vc_column_container col-md-4 animate__animated animate__fadeInLeft" style={{ animationDelay: "800ms" }} data-wow-delay="0.8s">
                           <div className="wpb_wrapper vc_column-inner">
                             <div className="wpb_single_image wpb_content_element vc_align_center  vc_custom_1564451308943">
                               <div className="wpb_wrapper">
                                 <div className="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img
-                                    width="672"
-                                    height="790"
-                                    src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/about-1.jpg"
-                                    className="vc_single_image-img attachment-full"
-                                    alt=""
-                                    decoding="async"
-                                    loading="lazy"
-                                    sizes="(max-width: 672px) 100vw, 672px"
-                                  />
+                                  <img width="672" height="790" src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/about-1.jpg" className="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" sizes="(max-width: 672px) 100vw, 672px"/>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div
-                          className="vc_column_container col-md-4 animate__animated animate__fadeIn"
-                          style={{ animationDelay: "600ms" }}
-                          data-wow-delay="0.6s"
-                        >
+                        <div className="vc_column_container col-md-4 animate__animated animate__fadeIn" style={{ animationDelay: "600ms" }} data-wow-delay="0.6s">
                           <div className="wpb_wrapper vc_column-inner">
                             <div className="wpb_single_image wpb_content_element vc_align_center  vc_custom_1564451315932">
                               <div className="wpb_wrapper">
                                 <div className="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img
-                                    width="672"
-                                    height="790"
-                                    src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/about-2.jpg"
-                                    className="vc_single_image-img attachment-full"
-                                    alt=""
-                                    decoding="async"
-                                    loading="lazy"
-                                    sizes="(max-width: 672px) 100vw, 672px"
-                                  />
+                                  <img width="672" height="790" src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/about-2.jpg" className="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" sizes="(max-width: 672px) 100vw, 672px"/>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div
-                          className="vc_column_container col-md-4 animate__animated animate__fadeInRight"
-                          style={{ animationDelay: "800ms" }}
-                          data-wow-delay="0.8s"
-                        >
+                        <div className="vc_column_container col-md-4 animate__animated animate__fadeInRight" style={{ animationDelay: "800ms" }} data-wow-delay="0.8s">
                           <div className="wpb_wrapper vc_column-inner">
                             <div className="wpb_single_image wpb_content_element vc_align_center  vc_custom_1564451322587">
                               <div className="wpb_wrapper">
                                 <div className="vc_single_image-wrapper   vc_box_border_grey">
-                                  <img
-                                    width="672"
-                                    height="790"
-                                    src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/about-3.jpg"
-                                    className="vc_single_image-img attachment-full"
-                                    alt=""
-                                    decoding="async"
-                                    loading="lazy"
-                                    sizes="(max-width: 672px) 100vw, 672px"
-                                  />
+                                  <img width="672" height="790" src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/about-3.jpg" className="vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" sizes="(max-width: 672px) 100vw, 672px"/>
                                 </div>
                               </div>
                             </div>
@@ -293,39 +214,21 @@ export default function OurTeam() {
         <div className="container">
           <div className="row g-5">
             <div className="row g-4 mb-4 pb-2">
-              <div
-                className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-1"
-                data-wow-delay="0.1s"
-              >
+              <div className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-1" data-wow-delay="0.1s" >
                 <div className="d-flex align-items-center">
-                  <div
-                    className="d-flex flex-shrink-0 align-items-center justify-content-center"
-                    style={{ width: "60px", height: "60px" }}
-                  ></div>
+                  <div className="d-flex flex-shrink-0 align-items-center justify-content-center" style={{ width: "60px", height: "60px" }} ></div>
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-users fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
-                      <CountUp
-                        start={0}
-                        end={300}
-                        duration={10}
-                        suffix="+"
-                        separator=","
-                      />
+                      <CountUp start={0} end={300} duration={10} suffix="+" separator="," />
                     </h2>
                     <p className="fw-medium mb-0 text-white">Happy Clients</p>
                   </div>
                 </div>
               </div>
-              <div
-                className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-3"
-                data-wow-delay="0.3s"
-              >
+              <div className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-3" data-wow-delay="0.3s" >
                 <div className="d-flex align-items-center">
-                  <div
-                    className="d-flex flex-shrink-0 align-items-center justify-content-center"
-                    style={{ width: "60px", height: "60px" }}
-                  ></div>
+                  <div className="d-flex flex-shrink-0 align-items-center justify-content-center" style={{ width: "60px", height: "60px" }} ></div>
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-check fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
@@ -335,15 +238,9 @@ export default function OurTeam() {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-1"
-                data-wow-delay="0.1s"
-              >
+              <div className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-1" data-wow-delay="0.1s" >
                 <div className="d-flex align-items-center">
-                  <div
-                    className="d-flex flex-shrink-0 align-items-center justify-content-center"
-                    style={{ width: "60px", height: "60px" }}
-                  ></div>
+                  <div className="d-flex flex-shrink-0 align-items-center justify-content-center" style={{ width: "60px", height: "60px" }} ></div>
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-trophy fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
@@ -353,15 +250,9 @@ export default function OurTeam() {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-3"
-                data-wow-delay="0.3s"
-              >
+              <div className="col-sm-3 wow animate__animated animate__fadeIn animate__delay-0-3" data-wow-delay="0.3s" >
                 <div className="d-flex align-items-center">
-                  <div
-                    className="d-flex flex-shrink-0 align-items-center justify-content-center"
-                    style={{ width: "60px", height: "60px" }}
-                  ></div>
+                  <div className="d-flex flex-shrink-0 align-items-center justify-content-center" style={{ width: "60px", height: "60px" }} ></div>
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-mug-hot fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
