@@ -5,7 +5,8 @@ import React, { useEffect } from 'react';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from "next/dynamic";
-import bgh from '../../public/img/carousel-1.jpg'
+// import bgh from '../../public/img/carousel-1.jpg'
+import bgh from '../../public/img/banner-bre.jpg'
 import CountUp from 'react-countup';
 const OwlCarousel2 = dynamic(() => import('@ntegral/react-owl-carousel'), {
     ssr: false,
@@ -33,7 +34,10 @@ const options = {
     },
 };
 const inlineStyle = {
-    background: `linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(${bgh.src}) center center no-repeat`,
+    background: `url(${bgh.src})`,
+    backgroundRepeat: 'no-repeat !important',
+    backgroundSize: 'cover !important'
+    // background: `linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(${bgh.src}) center center no-repeat`,
 };
 export default function Services() {
     const isServer = typeof window === 'undefined'
@@ -73,9 +77,9 @@ export default function Services() {
                 {/* <!-- Service Start --> */}
                 <div className="container-xxl py-5">
                     <div className="container">
-                        <div className="section-title text-center">
+                        {/* <div className="section-title text-center">
                             <h1 className="display-5 mb-5">Our Services</h1>
-                        </div>
+                        </div> */}
                         <div>
                             <div className="porto-u-main-heading"><h2 style={{ fontWeight: '700', fontSize: '32px', lineHeight: '42px' }}>Have a look at what we offer:</h2></div>
                             <div className="vc_row wpb_row porto-inner-container">
@@ -93,7 +97,7 @@ export default function Services() {
                                         <div className="vc_column_container col-md-12 col-lg-2 col-12">
                                             <div className="wpb_wrapper vc_column-inner">
                                                 <div className="vc_btn3-container vc_btn3-inline">
-                                                <a className="vc_btn3 vc_btn3-shape-default btn btn-lg btn-modern btn-dark" href="http://www.topendtiling.co.nz/top-end-tiling-quotation/" title="Quotation">Get a Quote!</a>	</div>
+                                                <a className="vc_btn3 vc_btn3-shape-default btn btn-lg btn-modern btn-dark" href="http://localhost:3000/services" title="Quotation">Get a Quote!</a>	</div>
                                             </div>
                                         </div>
                                     </div>
@@ -110,7 +114,7 @@ export default function Services() {
                                                         <div className="wpb_wrapper vc_column-inner">
                                                             <div className="wpb_single_image wpb_content_element vc_align_left mt-4 mb_1_5">
                                                                 <div className="wpb_wrapper">
-                                                                    <div className="vc_single_image-wrapper   vc_box_border_grey">
+                                                                    <div className="vc_single_image-wrapper vc_box_border_grey">
                                                                         <img  src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/service-tiling.jpg" className="imgservice vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy"  />
                                                                     </div>
                                                                 </div>
@@ -154,7 +158,7 @@ export default function Services() {
                                                         <div className="wpb_wrapper vc_column-inner">
                                                             <div className="wpb_single_image wpb_content_element vc_align_left mt-4 mb_1_5">
                                                                 <div className="wpb_wrapper">
-                                                                    <div className="vc_single_image-wrapper   vc_box_border_grey"><img src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/service-2.jpg" className="imgservice vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" sizes="(max-width: 540px) 100vw, 540px" />
+                                                                    <div className="vc_single_image-wrapper vc_box_border_grey"><img src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/service-2.jpg" className="imgservice vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" sizes="(max-width: 540px) 100vw, 540px" />
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -269,13 +273,12 @@ export default function Services() {
                                     <div className="row">
                                         <div className="vc_column_container col-md-12">
                                             <div className="wpb_wrapper vc_column-inner">
-
                                                 <div className="wow animate__animated animate__fadeIn animate__delay-0-3 vc_row wpb_row vc_inner row align-items-center appear-animation fadeInRight appear-animation-visible" data-wow-delay="0.1s">
                                                     <div className="vc_column_container col-md-6">
                                                         <div className="wpb_wrapper vc_column-inner">
                                                             <div className="wpb_single_image wpb_content_element vc_align_left mt-4 mb_1_5">
                                                                 <div className="wpb_wrapper">
-                                                                    <div className="vc_single_image-wrapper   vc_box_border_grey">
+                                                                    <div className="vc_single_image-wrapper vc_box_border_grey">
                                                                         <img src="https://www.topendtiling.co.nz/wp-content/uploads/2019/07/service-3.jpg" className="imgservice vc_single_image-img attachment-full" alt="" decoding="async" loading="lazy" sizes="(max-width: 540px) 100vw, 540px" />
                                                                     </div>
                                                                 </div>
@@ -291,7 +294,6 @@ export default function Services() {
                                                             </div>
                                                             <div className="wpb_text_column wpb_content_element ">
                                                                 <div className="wpb_wrapper">
-                                                               
                                                                     <p className="p1"><span className="s1">At Top End Tiling LTD we install sand/cement screeds to floors & walls using quality materials to ensure our high standard of workmanship.</span></p>
                                                                     <p className="p1"><span className="s1">To enable our highly skilled staff to deliver the floor to a high standard, we use ready mixed materials from reputable suppliers. The materials are batched and mixed off site for quality control guaranteeing the correct design mix is supplied, ensuring a quality installation is delivered.</span></p>
                                                                 </div>
@@ -347,7 +349,7 @@ export default function Services() {
                         <div className="row g-0 mx-lg-0">
                             <div className="col-lg-6 ps-lg-0" style={{ minHeight: '400px' }}>
                                 <div className="position-relative h-100">
-                                    <img className="position-absolute img-fluid w-100 h-100" src="/img/quote.jpg" style={{ objectFit: 'cover' }} alt="" />
+                                    <img className="position-absolute img-fluid w-100 h-100" src="/img/WechatIMG1202-887x1024.jpeg" style={{ objectFit: 'cover' }} alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-6 quote-text py-5 wow animate__animated animate__fadeIn animate__delay-0.5s" data-wow-delay="0.5s">
@@ -379,7 +381,7 @@ export default function Services() {
                                                 <textarea className="form-control border-0" placeholder="Special Note"></textarea>
                                             </div>
                                             <div className="col-12">
-                                                <button className="btn btn-primary w-100 py-3" type="submit">Submit</button>
+                                                <button className="btn btn-primary w-100 py-3" style={{backgroundColor: '#08c'}} type="submit">Submit</button>
                                             </div>
                                         </div>
                                     </form>

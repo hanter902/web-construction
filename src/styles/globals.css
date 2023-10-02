@@ -10,6 +10,9 @@
 .animate__delay-0-7{
     animation-delay: 0.7s;
 }
+.animate__delay-0-8{
+    animation-delay: 0.8s;
+}
 
 button.owl-prev{
     color: unset !important;
@@ -20,4 +23,22 @@ button.owl-prev{
 img.imgservice{
     max-width: 100%;
     height: auto;
+}
+
+
+
+
+.vc-gitem-zone-height-mode-auto .vc_gitem-zone-img {
+    /* display: none!important; */
+}
+.vc_gitem-zone-img {
+    width: 100%;
+    display: block;
+    /* visibility: hidden; */
+    height: auto;
+}
+
+.vc_grid.vc_row.vc_grid-gutter-15px .vc_grid-item {
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
