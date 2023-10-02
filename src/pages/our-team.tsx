@@ -220,7 +220,7 @@ export default function OurTeam() {
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-users fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
-                      <CountUp start={0} end={300} duration={10} suffix="+" separator="," />
+                      <CountUp start={0} end={300} duration={10} suffix="+" separator="," enableScrollSpy={true}/>
                     </h2>
                     <p className="fw-medium mb-0 text-white">Happy Clients</p>
                   </div>
@@ -232,7 +232,7 @@ export default function OurTeam() {
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-check fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
-                      <CountUp start={0} end={7} duration={5} separator="," />
+                      <CountUp start={0} end={7} duration={5} separator="," enableScrollSpy={true}/>
                     </h2>
                     <p className="fw-medium mb-0 text-white">Projects Done</p>
                   </div>
@@ -244,7 +244,7 @@ export default function OurTeam() {
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-trophy fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
-                      <CountUp start={0} end={100} duration={7} separator="," />
+                      <CountUp start={0} end={100} duration={7} separator="," enableScrollSpy={true}/>
                     </h2>
                     <p className="fw-medium mb-0 text-white">Happy Clients</p>
                   </div>
@@ -256,7 +256,7 @@ export default function OurTeam() {
                   <div className="ms-3" style={{ textAlign: "center" }}>
                     <i className="fa fa-mug-hot fa-2x text-white"></i>
                     <h2 className="text-white mb-1" data-toggle="counter-up">
-                      <CountUp start={0} end={352} duration={7} separator="," />
+                      <CountUp start={0} end={352} duration={7} separator="," enableScrollSpy={true}/>
                     </h2>
                     <p className="fw-medium mb-0 text-white">Projects Done</p>
                   </div>
