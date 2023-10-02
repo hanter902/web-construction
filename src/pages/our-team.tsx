@@ -292,7 +292,7 @@ export default function OurTeam() {
             <div className="col-sm-8 offset-sm-5 mt-sm-5 pt-sm-5 vc_column_container col-md-6 offset-lg-2 col-lg-4 offset-md-4 position-relative">
               <div className="wpb_wrapper vc_column-inner">
                 <div
-                  className="wpb_single_image wpb_content_element vc_align_left vc_custom_1564451456580 position-absolute d-none d-sm-blockwow animate__animated animate__zoomIn"
+                  className="wpb_single_image wpb_content_element vc_align_left vc_custom_1564451456580 position-absolute d-sm-block wow animate__animated animate__zoomIn"
                   style={{ animationDelay: "300ms" }}
                 >
                   <div className="wpb_wrapper">

@@ -244,14 +244,13 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../../public/img/carousel-1.jpg) center center no-repeat;
-    background-size: cover;
+    /* background: linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(../../public/img/carousel-1.jpg) center center no-repeat; */
+    background-size: cover !important;
 }
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
-
 
 /*** Section Title ***/
 .section-title h1 {
@@ -737,9 +736,6 @@ div.wpb_single_image .vc_single_image-wrapper {
 }
 .p-t-xxl {
     padding-top: 60px !important;
-}
-.position-absolute {
-    position: absolute !important;
 }
 .position-relative {
     position: relative !important;
