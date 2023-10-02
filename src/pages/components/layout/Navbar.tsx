@@ -23,6 +23,7 @@ export default function Navbar() {
                     <Link href="/services" className={clsx("nav-item nav-link", { "active": router.pathname === "/services" })}>Services</Link>
                     <Link href="/galleries" className={clsx("nav-item nav-link", { "active": router.pathname === "/galleries" })}>Galleries</Link>
                     <Link href="/our-team" className={clsx("nav-item nav-link", { "active": router.pathname === "/our-team" })}>Our Team</Link>
+                    <Link href="/contact-us" className={clsx("nav-item nav-link", { "active": router.pathname === "/contact-us" })}>Contact Us</Link>
                     {/* <a href="contact.html" className="nav-item nav-link">Contact</a> */}
                 </div>
             </div>

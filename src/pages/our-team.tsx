@@ -8,7 +8,6 @@ const inlineStyle = {
   background: `url(${bgh.src})`,
   backgroundRepeat: "no-repeat !important",
   backgroundSize: "cover !important",
-  // background: `linear-gradient(rgba(53, 53, 53, .7), rgba(53, 53, 53, .7)), url(${bgh.src}) center center no-repeat`,
 };
 export default function OurTeam() {
   const isServer = typeof window === "undefined";
@@ -21,13 +20,10 @@ export default function OurTeam() {
   return (
     <MasterLayout>
       {/* <!-- Page Header Start --> */}
-      <div
-        className="container-fluid page-header py-5 mb-5"
-        style={inlineStyle}
-      >
+      <div className="container-fluid page-header py-5" style={inlineStyle} >
         <div className="container py-5">
           <h1 className="display-3 text-white mb-3 animate__animated animate__slideInDown ">
-            Service
+            Our Team
           </h1>
           <nav aria-label="breadcrumb animate__animated animate__slideInDown">
             <ol className="breadcrumb">
@@ -41,11 +37,8 @@ export default function OurTeam() {
                   Pages
                 </a>
               </li>
-              <li
-                className="breadcrumb-item text-white active"
-                aria-current="page"
-              >
-                Service
+              <li className="breadcrumb-item text-white active" aria-current="page" >
+                Our Team
               </li>
             </ol>
           </nav>
