@@ -743,3 +743,17 @@ div.wpb_single_image .vc_single_image-wrapper {
 .ft-14{
     font-size: 14px;
 }
+.default-icon .porto-sicon-header {
+    display: table-cell;
+    vertical-align: middle;
+}
+.default-icon .porto-sicon-default {
+    display: table-cell;
+    vertical-align: middle;
+}
+.alternative-font, a, .color-primary {
+    color: #0088cc;
+}
+.info-box-small .porto-sicon-box, .info-box-small-wrap .porto-sicon-box {
+    margin-bottom: 15px;
+}
