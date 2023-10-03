@@ -754,6 +754,37 @@ div.wpb_single_image .vc_single_image-wrapper {
 .alternative-font, a, .color-primary {
     color: #0088cc;
 }
+.porto-sicon-header.blue-text > p{
+    color: #0088cc !important;
+}
 .info-box-small .porto-sicon-box, .info-box-small-wrap .porto-sicon-box {
     margin-bottom: 15px;
+}
+.default-icon .porto-sicon-default .porto-icon, .default-icon .porto-sicon-default .porto-sicon-img {
+    margin-right: 15px;
+}
+.porto-sicon-wrapper .porto-icon, .porto-sicon-wrapper .img-icon {
+    transition: transform 200ms linear;
+}
+.porto-icon {
+    display: inline-block;
+    font-size: 32px;
+    height: 2em;
+    width: 2em;
+    text-align: center;
+    line-height: 2em;
+    box-sizing: content-box !important;
+}
+.default-icon .porto-sicon-header > p:last-child {
+    margin-bottom: 0;
+}
+.lead, .wpb_text_column.lead, .wpb_text_column.lead p {
+    line-height: 1.8rem !important;
+    letter-spacing: -0.05em !important;
+}
+.font-size-lg {
+    font-size: 1.1em !important;
+}
+.btn.btn-primary{
+    border-radius: 4px;
 }
